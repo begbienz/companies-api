@@ -1,0 +1,25 @@
+{
+  "name": "companies-api",
+  "version": "1.0.0",
+  "description": "API that returns company data in json format",
+  "homepage": "https://github.com/begbienz/companies-api#readme",
+  "bugs": {
+    "url": "https://github.com/begbienz/companies-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/begbienz/companies-api.git"
+  },
+  "license": "ISC",
+  "author": "Andrew Begbie",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "express": "^5.1.0",
+    "xml2js": "^0.6.2"
+  }
+}
