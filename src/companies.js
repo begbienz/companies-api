@@ -41,7 +41,7 @@ app.listen(port, () => {
  * @returns 
  */
 async function getCompanyXML(companyId) {
-  const companyGet = `https://raw.githubusercontent.com/MiddlewareNewZealand/evaluation-instructions/main/xml-api/${companyId}.xl`
+  const companyGet = `https://raw.githubusercontent.com/MiddlewareNewZealand/evaluation-instructions/main/xml-api/${companyId}.xml`
   try {
     console.log("calling company " + companyGet)
     const response = await axios.get(companyGet, {
