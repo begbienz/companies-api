@@ -17,7 +17,7 @@ app.get('/companies/:companyId', async (req, res) => {
   const companyId = validateCompanyId(req.params.companyId)
   console.log(`companyId: ${companyId}`)
   if (companyId instanceof Object) {
-    res.send(companyId);
+    res.status(422).send(companyId);
     return null;
   }
 
